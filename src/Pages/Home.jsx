@@ -44,7 +44,7 @@ function Home() {
           </div>
           <div className="lg:ml-[150px] xl:ml-[150px] md:ml-[150px] sm:ml-[50px] ">
             <h1
-              className="max-w-[515px]  text-[70px] mt-[265px] "
+              className="max-w-[515px]  text-[70px] mt-[265px] max-sm:text-[50px] "
               data-aos="fade-right"
             >
               Vitae nunc,{" "}
@@ -53,7 +53,7 @@ function Home() {
               </span>
             </h1>
             <p
-              className="max-w-[574px] font-popins font-medium text-[20px] text-[#B2CEE1] leading-[41px] "
+              className="max-w-[574px] font-popins font-medium text-[20px] text-[#B2CEE1] leading-[41px] max-sm:text-[25px] "
               data-aos="fade-right"
             >
               Semper in egestas risus id tempus. Pellentesque dolor eros
@@ -64,7 +64,7 @@ function Home() {
         </div>
         <div className=" absolute bottom-0 ">
           {" "}
-          <img src={shadow} alt="" className=" w-full" />
+          <img src={shadow} alt="" className=" w-full " />
         </div>
       </div>
     </>
