@@ -14,7 +14,7 @@ function Section2() {
     });
   }, []);
   return (
-    <div className=" bg-[#000A1A] h-[100vh] overflow-hidden">
+    <div className=" bg-[#000A1A] h-[110vh] overflow-hidden">
       <div className="container">
         <div className="  flex flex-wrap flex-row mx-[-12px] pt-[153px] items-end ">
           <div
