@@ -14,7 +14,7 @@ function Section2() {
     });
   }, []);
   return (
-    <div className=" bg-[#000A1A] h-[100vh] overflow-hidden">
+    <div className=" bg-[#000A1A] h-[150vh] overflow-hidden">
       <div className="container">
         <div className="  flex flex-wrap flex-row mx-[-12px] pt-[153px] items-end ">
           <div
@@ -23,7 +23,11 @@ function Section2() {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            <img src={cartoonicon} alt="" className="max-w-[574px] " />
+            <img
+              src={cartoonicon}
+              alt=""
+              className="max-w-[574px] max-sm:max-w-[250px] "
+            />
             <img
               src={bgshadow}
               alt=""
