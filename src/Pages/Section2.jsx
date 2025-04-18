@@ -42,16 +42,16 @@ function Section2() {
             data-aos-duration="1000"
           >
             <div className="">
-              <h2 className="font-popins font-semibold text-[50px] text-white max-w-[338px]">
+              <h2 className="font-popins font-semibold text-[50px] text-white max-w-[338px] max-sm:text-[30px]">
                 Mint Your Bat
               </h2>
-              <h3 className="text-[30px] font-medium font-popins text-white">
+              <h3 className="text-[30px] font-medium font-popins text-white max-sm:text-[20px]">
                 Minting: 1,5 SOL
               </h3>
-              <span className="font-popins font-regular text-[#80858D] line-through">
+              <span className="font-popins font-regular text-[#80858D] line-through ">
                 Before 2 SOL
               </span>
-              <h3 className="text-[30px] font-medium font-popins text-white mt-[21px]">
+              <h3 className="text-[30px] font-medium font-popins text-white mt-[21px] max-sm:text-[20px]">
                 Whitelist: 0,88 SOL
               </h3>
               <div className="font-popins font-regular text-[#80858D] line-through">
@@ -60,7 +60,11 @@ function Section2() {
               <button className="font-popins font-medium text-4 bg-white border-1 border-black rounded-full mt-[63px] p-5 transition duration-500 hover:border-white hover:border-solid hover:bg-transparent hover:text-white">
                 Coming soon
               </button>
-              <img src={socialicon} alt="" className="mt-[52px]" />
+              <img
+                src={socialicon}
+                alt=""
+                className="mt-[52px] max-sm:w-[90px]"
+              />
             </div>
             <img
               src={bgshadow}
