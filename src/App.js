@@ -3,6 +3,8 @@ import "./App.css";
 import Home from "./Pages/Home";
 import Section2 from "./Pages/Section2";
 import Card from "./Pages/Card";
+import Timeline from "./Pages/Timeline";
+import FaqAccordion from "./Pages/FaqAccordion";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Home />
       <Section2 />
       <Card />
+      <Timeline />
+      <FaqAccordion />
     </>
   );
 }
