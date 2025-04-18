@@ -6,9 +6,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 .homebg {
   background-image: url(../public/Group\ 92.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+.left100 {
+  left: -100% !important;
+}
+.left0 {
+  left: 0 !important;
 }

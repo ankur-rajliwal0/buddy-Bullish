@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import shadow from "../Assets/Rectangle 60.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -11,15 +11,19 @@ function Home() {
       once: true, // only animate once
     });
   }, []);
+  const [show, setshow] = useState(false);
   return (
     <>
-      <div className="homebg h-[100vh] relative">
+      <div className="homebg  relative">
         <div className="max-w-[1140px] mx-auto px-3  text-white pt-[28px]">
           <div className="flex justify-between ">
             <div className="">logo</div>
-            <div className="">
-              {" "}
-              <ul className="flex gap-[80px] w-[634px] font-popins font-[17px] cursor-pointer hover:text-yellow-50">
+            <div
+              className={` ${
+                show ? "left0" : "left100"
+              } max-lg:absolute  max-lg:bg-red-500 max-lg:w-full  max-lg:h-screen  max-lg:z-10  max-lg:top-0  max-lg:left-0  max-lg:flex-col  max-lg:justify-center  max-lg:items-center max-lg:flex duration-300 ease-linear `}
+            >
+              <ul className="flex gap-[80px] w-[634px] font-popins font-[17px] cursor-pointer hover:text-yellow-50 max-lg:flex-col max-lg:items-center ">
                 <li className="hover:text-[#0060a58d] transition duration-600">
                   Minting
                 </li>
@@ -28,6 +32,14 @@ function Home() {
                 <li>Team</li>
                 <li>Join Us</li>
               </ul>
+            </div>
+            <div
+              className="lg:hidden block z-20"
+              onClick={() => setshow(!show)}
+            >
+              <span className="h-[2px] w-[25px] bg-white block "></span>
+              <span className="h-[3px] w-[25px] bg-white my-1 block"></span>
+              <span className="h-[2px] w-[25px] bg-white block "></span>
             </div>
           </div>
           <div className="lg:ml-[150px] xl:ml-[150px] md:ml-[150px] sm:ml-[50px] ">
