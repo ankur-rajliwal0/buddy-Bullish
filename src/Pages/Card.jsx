@@ -53,6 +53,10 @@ const Card = () => {
             </div>
           </div>
         </div>
+
+
+
+        
         <div className="flex flex-row flex-wrap mx-[-12px] mt-[41px]">
           <div className="lg:w-4/12 sm:w-6/12 px-3">
             <div className="bg-[#031227] px-10 pt-10 pb-[78px]  rounded-lg">

@@ -21,7 +21,7 @@ function Home() {
             <div
               className={` ${
                 show ? "left0" : "left100"
-              } max-lg:absolute  max-lg:bg-red-500 max-lg:w-full  max-lg:h-screen  max-lg:z-10  max-lg:top-0  max-lg:left-0  max-lg:flex-col  max-lg:justify-center  max-lg:items-center max-lg:flex duration-300 ease-linear `}
+              } max-lg:absolute  max-lg:bg-[#010A11] max-lg:w-full  max-lg:h-screen  max-lg:z-10  max-lg:top-0  max-lg:left-0  max-lg:flex-col  max-lg:justify-center  max-lg:items-center max-lg:flex duration-300 ease-linear `}
             >
               <ul className="flex gap-[80px] w-[634px] font-popins font-[17px] cursor-pointer hover:text-yellow-50 max-lg:flex-col max-lg:items-center ">
                 <li className="hover:text-[#0060a58d] transition duration-600">

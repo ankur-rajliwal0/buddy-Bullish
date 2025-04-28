@@ -19,3 +19,8 @@
 .left0 {
   left: 0 !important;
 }
+.bg-vector {
+  background-image: url(../src/Assets/Vector.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
